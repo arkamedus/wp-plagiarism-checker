@@ -1,0 +1,46 @@
+#plagiarism_admin_form fieldset{
+  border:1px solid #999;
+  padding: 0 20px 0 20px;
+  margin-top:10px;
+}
+
+#plagiarism_admin_form legend{
+  border:1px solid #999;
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+}
+
+#plagiarism_clear_button{
+  position:relative;
+  left:20px;
+}
+
+#plagiarism_loader{
+  position:relative;
+  vertical-align: middle;
+  left: 40px;
+}
+
+.plagiarism_row{
+  width:100%;
+  height:18px;
+  padding: 4px 0px 0px 2px;
+  clear:both;
+}
+
+.plagiarism_reject {
+  background:#f66;
+  font-weight:bold;
+}
+
+.plagiarism_link  {
+	padding: 1px 4px;
+}
+.plagiarism_link a:link, .plagiarism_link a:visited {
+  color:#fff; font-size:90%; text-decoration:none;
+}
+
+.plagiarism_link_accept { background:#060; color:white; }
+.plagiarism_link_error  { background:#f90; color:white; }
+.plagiarism_link_reject { background:red;  color:white; }
+
